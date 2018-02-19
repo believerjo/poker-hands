@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -97,6 +98,7 @@ public class PokerHandsTest {
     h2.evaluate();
   }
 
+  @Ignore
   @Test
   public void testMain() {
     System.out.println("Testing from input file");
